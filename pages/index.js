@@ -60,94 +60,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-red-100">
-            <AiFillGithub />
-            <AiFillLinkedin />
+            <a href="https://github.com/NagasundarP" rel="noreferrer" target="_blank"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/nagasundar-peddibhotla-217262207/" rel="noreferrer" target="_blank"><AiFillLinkedin /></a>
             {/* <AiFillBehanceCircle /> */}
-          </div>
-          <div className="relative mx-auto bg-gradient-to-b from-purple-700 rounded-full w-80 h-80 mt-20 mb-10 overflow-hidden md:h-96 md:w-96">
-            <Image src={sun} alt="sun" layout="fill" objectFit="cover" />
-          </div>
-        </section>
-
-        <section>
-          <div>
-            <h3 className="text-3xl py-3 text-center text-purple-500">
-              Services I offer
-            </h3>
-            <p className="text-md py-2 leading-8 text-gray-800"></p>
-            <div className="text-center">
-              <p>
-                <span className="text-purple-500">UI/UX</span>
-              </p>
-              <p className="dark:text-red-100">Web Design</p>
-              <p>
-                <span className="text-purple-500">Frontend Development</span>
-              </p>
-              <p className="dark:text-red-100">Web Development</p>
-            </div>
-          </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-red-100">
-              <Image
-                src={design}
-                alt=""
-                className="mx-auto"
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-purple-500">
-                UI/UX
-              </h3>
-              <p className="text-md py-2 leading-8 text-gray-800">
-                UI/UX design is the process of creating a product that provides
-                meaningful and relevant experiences to users. This involves the
-                design of the interface, interaction, and experience of the
-                product. Helping you to create a product that provides
-                meaningful and relevant experiences to users.
-                <span className="text-purple-600 p-2">
-                  So lets get started.
-                </span>
-              </p>
-              <h4 className="text-purple-500 py-2">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Adobe Photoshop</p>
-              <p className="text-gray-800 py-1">Adobe Illustrator</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-red-100">
-              <Image
-                src={code}
-                alt=""
-                className="mx-auto"
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-purple-500">
-                Frontend Developer
-              </h3>
-              <p className="text-md py-2 leading-8 text-gray-800">
-                Frontend development is the process of converting the UI/UX
-                design to a functional website. This involves the development of
-                the interface and the experience of the product. Building robust
-                and scalable websites that are fast and responsive. User
-                experience is my top priority.
-                <span className="text-purple-600 p-2">
-                  Website is the first impression of your business. Let&apos;s
-                  make it a good one.
-                </span>
-              </p>
-              <h4 className="text-purple-500 py-2">
-                Frontend Development tools I use
-              </h4>
-              <p className="text-gray-800 py-1">HTML</p>
-              <p className="text-gray-800 py-1">CSS</p>
-              <p className="text-gray-800 py-1">Tailwind CSS</p>
-              <p className="text-gray-800 py-1">Bootstrap</p>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">GraphQL</p>
-              <p className="text-gray-800 py-1">TypeScript</p>
-              <span className="text-purple-600 p-2">& more</span>
-            </div>
           </div>
         </section>
         <section>
